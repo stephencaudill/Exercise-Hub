@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knee Strengthening Routine</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .carousel-inner {
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+
+            .video-container iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans min-h-screen flex flex-col items-center py-10">
+
+    <div class="max-w-3xl w-full px-4">
+        <h1 class="text-3xl font-bold text-center text-blue-700 mb-8">Non-Weight-Bearing Knee Exercises</h1>
+
+        <div class="relative bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200">
+            <div id="carousel" class="flex carousel-inner w-full">
+
+                <div class="w-full flex-shrink-0 p-6">
+                    <h2 class="text-2xl font-semibold mb-2">1. Straight Leg Raises</h2>
+                    <p class="text-gray-600 mb-4">Sets: 3 | Reps: 10-15 per leg</p>
+
+                    <div class="flex items-center justify-between gap-4 mb-4 p-4 bg-blue-50 border border-blue-100 rounded-lg">
+                        <div>
+                            <p class="text-sm text-gray-500">Sets performed</p>
+                            <p class="text-2xl font-bold text-blue-700"><span data-set-count="0">0</span> / 3</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <button type="button" data-set-decrement="0" class="px-4 py-2 bg-gray-200 text-gray-800 rounded hover:bg-gray-300 disabled:opacity-50 disabled:cursor-not-allowed">−</button>
+                            <button type="button" data-set-increment="0" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">+ Add Set</button>
+                        </div>
+                    </div>
+
+                    <div class="video-container bg-gray-200 rounded-lg">
+                        <iframe id="kaltura_player" src='https://cdnapisec.kaltura.com/p/520801/embedPlaykitJs/uiconf_id/54758562?iframeembed=true&amp;entry_id=1_tqnx0qc0&amp;config%5Bprovider%5D=%7B%22widgetId%22%3A%221_uyn7d59e%22%7D&amp;config%5Bplayback%5D=%7B%22startTime%22%3A0%7D' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" title="Straight Leg Raise" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0"></iframe>
+                    </div>
+                </div>
+
+                <div class="w-full flex-shrink-0 p-6">
+                    <h2 class="text-2xl font-semibold mb-2">2. Short-Arc Quads</h2>
+                    <p class="text-gray-600 mb-4">Sets: 3 | Reps: 10-15 per leg</p>
+
+                    <div class="flex items-center justify-between gap-4 mb-4 p-4 bg-blue-50 border border-blue-100 rounded-lg">
+                        <div>
+                            <p class="text-sm text-gray-500">Sets performed</p>
+                            <p class="text-2xl font-bold text-blue-700"><span data-set-count="1">0</span> / 3</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <button type="button" data-set-decrement="1" class="px-4 py-2 bg-gray-200 text-gray-800 rounded hover:bg-gray-300 disabled:opacity-50 disabled:cursor-not-allowed">−</button>
+                            <button type="button" data-set-increment="1" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">+ Add Set</button>
+                        </div>
+                    </div>
+
+                    <div class="video-container bg-gray-200 rounded-lg flex items-center justify-center">
+                        <iframe id="kaltura_player" src='https://cdnapisec.kaltura.com/p/520801/embedPlaykitJs/uiconf_id/54758562?iframeembed=true&amp;entry_id=1_bbacyfq0&amp;config%5Bprovider%5D=%7B%22widgetId%22%3A%221_6sp0cm89%22%7D&amp;config%5Bplayback%5D=%7B%22startTime%22%3A0%7D' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" title="Short Arc Quad" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0"></iframe>
+                    </div>
+                </div>
+
+                <div class="w-full flex-shrink-0 p-6">
+                    <h2 class="text-2xl font-semibold mb-2">3. Side-Lying Leg Raises</h2>
+                    <p class="text-gray-600 mb-4">Sets: 3 | Reps: 10-15 per leg</p>
+
+                    <div class="flex items-center justify-between gap-4 mb-4 p-4 bg-blue-50 border border-blue-100 rounded-lg">
+                        <div>
+                            <p class="text-sm text-gray-500">Sets performed</p>
+                            <p class="text-2xl font-bold text-blue-700"><span data-set-count="2">0</span> / 3</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <button type="button" data-set-decrement="2" class="px-4 py-2 bg-gray-200 text-gray-800 rounded hover:bg-gray-300 disabled:opacity-50 disabled:cursor-not-allowed">−</button>
+                            <button type="button" data-set-increment="2" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">+ Add Set</button>
+                        </div>
+                    </div>
+
+                    <div class="video-container bg-gray-200 rounded-lg flex items-center justify-center">
+                        <iframe id="kaltura_player" src='https://cdnapisec.kaltura.com/p/520801/embedPlaykitJs/uiconf_id/54758562?iframeembed=true&amp;entry_id=1_04bheu4l&amp;config%5Bprovider%5D=%7B%22widgetId%22%3A%221_17zq2gtb%22%7D&amp;config%5Bplayback%5D=%7B%22startTime%22%3A0%7D' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" title="Straight Leg Raise in Side Lying" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0"></iframe>
+                    </div>
+                </div>
+
+                <div class="w-full flex-shrink-0 p-6">
+                    <h2 class="text-2xl font-semibold mb-2">4. Clamshells</h2>
+                    <p class="text-gray-600 mb-4">Sets: 3 | Reps: 10-15 per leg</p>
+
+                    <div class="flex items-center justify-between gap-4 mb-4 p-4 bg-blue-50 border border-blue-100 rounded-lg">
+                        <div>
+                            <p class="text-sm text-gray-500">Sets performed</p>
+                            <p class="text-2xl font-bold text-blue-700"><span data-set-count="3">0</span> / 3</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <button type="button" data-set-decrement="3" class="px-4 py-2 bg-gray-200 text-gray-800 rounded hover:bg-gray-300 disabled:opacity-50 disabled:cursor-not-allowed">−</button>
+                            <button type="button" data-set-increment="3" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">+ Add Set</button>
+                        </div>
+                    </div>
+
+                    <div class="video-container bg-gray-200 rounded-lg">
+                        <iframe id="kaltura_player" src='https://cdnapisec.kaltura.com/p/520801/embedPlaykitJs/uiconf_id/54758562?iframeembed=true&amp;entry_id=1_ysqqzvqh&amp;config%5Bprovider%5D=%7B%22widgetId%22%3A%221_e2yvrwin%22%7D&amp;config%5Bplayback%5D=%7B%22startTime%22%3A0%7D' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" title="Clamshells" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0"></iframe>
+                    </div>
+                </div>
+
+                <div class="w-full flex-shrink-0 p-6">
+                    <h2 class="text-2xl font-semibold mb-2">5. Prone Knee Flexion | Prone Hamstring Curls</h2>
+                    <p class="text-gray-600 mb-4">Sets: 3 | Reps: 10-15 per leg</p>
+
+                    <div class="flex items-center justify-between gap-4 mb-4 p-4 bg-blue-50 border border-blue-100 rounded-lg">
+                        <div>
+                            <p class="text-sm text-gray-500">Sets performed</p>
+                            <p class="text-2xl font-bold text-blue-700"><span data-set-count="4">0</span> / 3</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <button type="button" data-set-decrement="4" class="px-4 py-2 bg-gray-200 text-gray-800 rounded hover:bg-gray-300 disabled:opacity-50 disabled:cursor-not-allowed">−</button>
+                            <button type="button" data-set-increment="4" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">+ Add Set</button>
+                        </div>
+                    </div>
+
+                    <div class="video-container bg-gray-200 rounded-lg flex items-center justify-center">
+                        <iframe id="kaltura_player" src='https://cdnapisec.kaltura.com/p/520801/embedPlaykitJs/uiconf_id/54758562?iframeembed=true&amp;entry_id=1_73go2v0l&amp;config%5Bprovider%5D=%7B%22widgetId%22%3A%221_to26m6nb%22%7D&amp;config%5Bplayback%5D=%7B%22startTime%22%3A0%7D' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" title="Prone Knee Flexion" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0"></iframe>
+                    </div>
+                </div>
+
+                <div class="w-full flex-shrink-0 p-6">
+                    <h2 class="text-2xl font-semibold mb-2">6. Seated Knee Extensions</h2>
+                    <p class="text-gray-600 mb-4">Sets: 3 | Reps: 10-15 per leg</p>
+
+                    <div class="flex items-center justify-between gap-4 mb-4 p-4 bg-blue-50 border border-blue-100 rounded-lg">
+                        <div>
+                            <p class="text-sm text-gray-500">Sets performed</p>
+                            <p class="text-2xl font-bold text-blue-700"><span data-set-count="5">0</span> / 3</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <button type="button" data-set-decrement="5" class="px-4 py-2 bg-gray-200 text-gray-800 rounded hover:bg-gray-300 disabled:opacity-50 disabled:cursor-not-allowed">−</button>
+                            <button type="button" data-set-increment="5" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">+ Add Set</button>
+                        </div>
+                    </div>
+
+                    <div class="video-container bg-gray-200 rounded-lg flex items-center justify-center">
+                        <iframe width="1157" height="795" src="https://www.youtube.com/embed/H0ejJlqpmK0" title="Seated Knee Extension - quadriceps activation exercise" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="w-full flex-shrink-0 p-6 flex flex-col items-center justify-center text-center">
+                    <h2 class="text-3xl font-bold text-green-700 mb-4">Great Job!</h2>
+                    <p class="text-gray-600 mb-8">You completed the routine. Use the button below to reset all counters and start again.</p>
+
+                    <button id="resetBtn" type="button" class="px-6 py-3 bg-red-600 text-white rounded-lg hover:bg-red-700 font-semibold">
+                        Reset All Counters
+                    </button>
+                </div>
+            </div>
+
+            <div class="flex justify-between items-center p-4 bg-gray-50 border-t border-gray-200">
+                <button id="prevBtn" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed" disabled>
+                    &larr; Previous
+                </button>
+                <span id="slideIndicator" class="text-gray-600 font-medium">1 / 7</span>
+                <button id="nextBtn" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed">
+                    Next &rarr;
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const carousel = document.getElementById('carousel');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const resetBtn = document.getElementById('resetBtn');
+        const slideIndicator = document.getElementById('slideIndicator');
+
+        const exerciseSlides = 6;
+        const totalSlides = 7;
+        const storageKey = 'knee-exercise-set-counts';
+        const setCounts = loadSetCounts();
+        let currentSlide = 0;
+
+        function loadSetCounts() {
+            const saved = localStorage.getItem(storageKey);
+            if (!saved) {
+                return Array(exerciseSlides).fill(0);
+            }
+
+            try {
+                const parsed = JSON.parse(saved);
+                if (Array.isArray(parsed) && parsed.length === exerciseSlides) {
+                    return parsed.map(value => Number.isFinite(Number(value)) ? Number(value) : 0);
+                }
+            } catch {
+                return Array(exerciseSlides).fill(0);
+            }
+
+            return Array(exerciseSlides).fill(0);
+        }
+
+        function saveSetCounts() {
+            localStorage.setItem(storageKey, JSON.stringify(setCounts));
+        }
+
+        function updateSetCount(slideIndex) {
+            const countElements = document.querySelectorAll(`[data-set-count="${slideIndex}"]`);
+            countElements.forEach(element => {
+                element.textContent = setCounts[slideIndex];
+            });
+
+            const decrementButtons = document.querySelectorAll(`[data-set-decrement="${slideIndex}"]`);
+            decrementButtons.forEach(button => {
+                button.disabled = setCounts[slideIndex] === 0;
+            });
+
+            saveSetCounts();
+        }
+
+        function updateAllSetCounts() {
+            for (let i = 0; i < exerciseSlides; i++) {
+                updateSetCount(i);
+            }
+        }
+
+        function updateCarousel() {
+            carousel.style.transform = `translateX(-${currentSlide * 100}%)`;
+            slideIndicator.textContent = `${currentSlide + 1} / ${totalSlides}`;
+            prevBtn.disabled = currentSlide === 0;
+            nextBtn.disabled = currentSlide === totalSlides - 1;
+        }
+
+        function resetAllCounters() {
+            for (let i = 0; i < exerciseSlides; i++) {
+                setCounts[i] = 0;
+            }
+
+            updateAllSetCounts();
+            currentSlide = 0;
+            updateCarousel();
+        }
+
+        nextBtn.addEventListener('click', () => {
+            if (currentSlide < totalSlides - 1) {
+                currentSlide++;
+                updateCarousel();
+            }
+        });
+
+        prevBtn.addEventListener('click', () => {
+            if (currentSlide > 0) {
+                currentSlide--;
+                updateCarousel();
+            }
+        });
+
+        resetBtn.addEventListener('click', resetAllCounters);
+
+        document.querySelectorAll('[data-set-increment]').forEach(button => {
+            button.addEventListener('click', () => {
+                const slideIndex = Number(button.getAttribute('data-set-increment'));
+                setCounts[slideIndex]++;
+                updateSetCount(slideIndex);
+            });
+        });
+
+        document.querySelectorAll('[data-set-decrement]').forEach(button => {
+            button.addEventListener('click', () => {
+                const slideIndex = Number(button.getAttribute('data-set-decrement'));
+                if (setCounts[slideIndex] > 0) {
+                    setCounts[slideIndex]--;
+                    updateSetCount(slideIndex);
+                }
+            });
+        });
+
+        updateAllSetCounts();
+        updateCarousel();
+    </script>
+</body>
+</html>
